@@ -8,7 +8,7 @@ import (
 	"github.com/urfave/cli"
 )
 
-func Gerar() *cli.App{ 
+func Generate() *cli.App{ 
 	app := cli.NewApp()
 	app.Name = "CLI application"
 	app.Usage = "Search IPs and Server Names"
